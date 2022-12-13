@@ -1,0 +1,32 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{font-family: 'Roboto', sans-serif;}
+header {
+    display: flex;
+      /*flex-direction-row default kod */
+    justify-content: space-between; /*main axis esas ox soldan saga*/
+    align-items: center; /* cros axis */
+    padding-top: 41px;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+}
+
+header .nav-links a{color: #000;
+text-decoration: none;}
+
+
+.fa-bars-staggered{ display: none;}
+
+
+@media(max-width:768px) {
+.fa-bars-staggered{display: flex;
+cursor: pointer;}
+
+
+.nav-links{display: none;}
+
+header{padding-left: 20px;
+padding-right: 20px;}
+}
