@@ -112,3 +112,39 @@ padding-right: 0; }
 }
 
 /*INTROSECTION  END*/
+
+/*TRUSTED BY SECTIONS START*/
+
+
+
+
+/*childselector*/
+.trusted-by-section >h6 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+
+}
+
+.trusted-by-companies {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+
+@media(max-width:768px) {
+  .trusted-by-company:nth-child(even) {
+    display: none;
+  }
+
+  .trusted-by-company:not(:first-child) {
+    display: none;
+  }
+}
+
+
+
+/*TRUSTED BY SECTIONS END*/
