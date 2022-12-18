@@ -1,3 +1,10 @@
+
+:root {
+  --pink-color: #FF5E69;
+}
+
+
+
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -148,3 +155,79 @@ padding-right: 0; }
 
 
 /*TRUSTED BY SECTIONS END*/
+
+
+/*SERVICES SECTION START*/
+
+
+
+
+h6,h1{
+  text-align: center;
+}
+
+h6{
+  text-transform: uppercase;
+  font-weight: 700;
+  color:var(--pink-color);
+  line-height: 22px;
+  font-size: 22px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.services{
+  padding-top: 160px;
+}
+
+.services-cards-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.service-card{
+  width: 20%;
+  padding: 20px;
+  min-width: 250px;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+p{
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+li{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SERVICES SECTION END*/
